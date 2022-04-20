@@ -31,6 +31,9 @@ dependencies {
     annotationProcessor("org.projectlombok:lombok")
     testImplementation("org.springframework.boot:spring-boot-starter-test")
     implementation(files("../firstTraineeTask/padeg.jar"))
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation("junit:junit:4.13.1")
+
 }
 
 tasks.withType<KotlinCompile> {
